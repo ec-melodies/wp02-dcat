@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "locn": "http://www.w3.org/ns/locn#",
+    "schema": "http://schema.org/",
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "datasets": "dcat:dataset",
+    "Dataset": "dcat:Dataset",
+    "Location": "dct:Location",
+    "geometry": { "@id": "locn:geometry", "@type": "gsp:wktLiteral" },
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "PeriodOfTime": "dct:PeriodOfTime",
+    "startDate": { "@id": "schema:startDate", "@type": "xsd:date" },
+    "endDate": { "@id": "schema:endDate", "@type": "xsd:date" },
+    "title": { "@id": "dct:title" },
+    "description": { "@id": "dct:description" },
+    "issued": { "@id": "dct:issued", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" },
+    "spatial": { "@id": "dct:spatial" },
+    "temporal": { "@id": "dct:temporal" },
+    "ssn": "http://purl.oclc.org/NET/ssnx/ssn",
+    "observedProperties": { "@id": "ssn:observedProperty", "@type": "@id" },
+    "Distribution": { "@id": "dcat:Distribution" },
+    "distributions": { "@id": "dcat:distribution" },
+    "accessURL": { "@id": "dcat:accessURL", "@type": "@id" },
+    "downloadURL": { "@id": "dcat:downloadURL", "@type": "@id" },
+    "mediaType": { "@id": "dcat:mediaType" },
+    "isPartOf": { "@id": "dct:isPartOf", "@type": "@id"},
+    "parts": { "@id": "dct:hasPart", "@type": "@id" }
+  },
+  "@type": "dcat:Catalog",
+  "title": "WP6 Datasets",
+  "datasets": [
+  {
+    "@id": "http://melodiesproject.eu/datasets/collections/temperature/1",
+    "@type": "Dataset",
+    "title": "Monthly mean temperature map",
+    "description": "Monthly mean map - temperature produced using Copernicus med mfc toolbox",
+    "issued": "2015-10-13",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "1987-01-01",
+      "endDate": "2012-12-31"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "label": "Sea Water Temperature"
+    }],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "Web Mapping Server API",
+        "dct:type": "dctype:Service",
+        "title": "WMS preview endpoint",
+        "accessURL": "http://melodies-wp6.terradue.com/ncWMS-1.2/wms?item=layerDetails&layerName=mediterrenean_monthly_temperature/votemper&request=GetMetadata",
+        "mediaType": "application/xml"
+      }
+    ],
+    "parts": [
+      "http://melodiesproject.eu/datasets/temperature_1"
+    ]
+  }, {
+    "@id": "http://melodiesproject.eu/datasets/temperature_1",
+    "@type": "Dataset",
+    "title": "Monthly mean temperature map December 2012",
+    "description": "Monthly mean map - temperature produced using Copernicus med mfc toolbox",
+    "issued": "2015-10-13",
+    "spatial": {
+      "@type": "dct:Location",
+      "geometry": "POLYGON((-6.03125 30.15625,36.28125 30.15625,36.28125 45.96875,-6.03125 45.96875,-6.03125 30.15625))"
+    },
+    "temporal": {
+      "@type": "dct:PeriodOfTime",
+      "startDate": "2012-11-30",
+      "endDate": "2012-12-31"
+    },
+    "observedProperties": [{
+       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "label": "Sea Water Temperature"
+    }],
+    "isPartOf": "http://melodiesproject.eu/datasets/collections/temperature/1",  
+    "publisher": "INGV & ACS",
+    "theme": "Oceanographic geographical features",  
+    "distributions": [
+     {
+        "@type": "dcat:Distribution",
+        "dct:type": "dctype:Service",
+        "title": "WMS preview endpoint",
+        "accessURL": "http://melodies-wp6.terradue.com/ncWMS-1.2/wms?LAYERS=mediterranean_monthly_temperature/votemper&ELEVATION=-5&TIME=2012-11-30T12:00:00.000Z&TRANSPARENT=true&STYLES=boxfill/rainbow&COLORSCALERANGE=10.417969,20.988281&NUMCOLORBANDS=250&LOGSCALE=false&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&EXCEPTIONS=application/vnd.ogc.se_inimage&FORMAT=image/png&SRS=EPSG:4326&BBOX=-6.03125,30.15625 , 36.28125,45.96875&WIDTH=677&HEIGHT=253",
+        "mediaType": "image/png"
+      }, {
+        "@type": "dcat:Distribution",
+        "title": "A ZIP of all netCDF files...",
+        "downloadURL": "http://melodiesproject.eu/datasets/1/aggregated-netcdf.zip",
+        "mediaType": "application/zip"
+      }
+    ]
+  }
+  
+  ]
+}
