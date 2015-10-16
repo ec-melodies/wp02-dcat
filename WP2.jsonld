@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "locn": "http://www.w3.org/ns/locn#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/",
+    "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "datasets": "dcat:dataset",
+    "Dataset": "dcat:Dataset",
+    "Location": "dct:Location",
+    "geometry": { "@id": "locn:geometry", "@type": "gsp:wktLiteral" },
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "PeriodOfTime": "dct:PeriodOfTime",
+    "startDate": { "@id": "schema:startDate", "@type": "xsd:date" },
+    "endDate": { "@id": "schema:endDate", "@type": "xsd:date" },
+    "title": "dct:title",
+    "description": "dct:description",
+    "theme": {"@id": "dcat:theme", "@type": "@id" },
+    "issued": { "@id": "dct:issued", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" },
+    "spatial": "dct:spatial",
+    "temporal": "dct:temporal",
+    "ssn": "http://purl.oclc.org/NET/ssnx/ssn",
+    "observedProperties": { "@id": "ssn:observedProperty", "@type": "@id" },
+    "publisher": "dct:publisher",
+    "Organization": "foaf:Organization",
+    "name": "foaf:name",
+    "Distribution": "dcat:Distribution",
+    "distributions": "dcat:distribution",
+    "accessURL": { "@id": "dcat:accessURL", "@type": "@id" },
+    "downloadURL": { "@id": "dcat:downloadURL", "@type": "@id" },
+    "mediaType": "dcat:mediaType",
+    "isPartOf": { "@id": "dct:isPartOf", "@type": "@id"},
+    "parts": { "@id": "dct:hasPart", "@type": "@id" }
+  },
+  "@type": "dcat:Catalog",
+  "title": "WP2 Pseudo Datasets",
+  "datasets": [
+  {
+    "@id": "http://melodiesproject.eu/datasets/collections/temperature/1",
+    "@type": "Dataset",
+    "title": "Test Dataset for testing distributions",
+    "description": "This dataset includes distributions of various formats and APIs to demo CKAN's preview capabilities",
+    "issued": "2015-10-13",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "2015-01-01",
+      "endDate": "2015-12-31"
+    },
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "WMS endpoint",
+        "accessURL": "http://oos.soest.hawaii.edu/thredds/wms/srtm30plus_v11_land?service=WMS&version=1.3.0&request=GetCapabilities",
+        "format": "wms"
+      }, {     
+        "@type": "Distribution",
+        "title": "Overview image from WMS",
+        "downloadURL": "http://oos.soest.hawaii.edu/thredds/wms/srtm30plus_v11_land?LAYERS=elev&ELEVATION=0&TIME=2015-10-16T23%3A33%3A25Z&TRANSPARENT=false&STYLES=boxfill%2Frainbow&CRS=EPSG%3A4326&COLORSCALERANGE=0%2C6000&NUMCOLORBANDS=253&LOGSCALE=false&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&EXCEPTIONS=application%2Fvnd.ogc.se_inimage&FORMAT=image%2Fpng&SRS=EPSG%3A4326&BBOX=-180,-90,180,90&WIDTH=1024&HEIGHT=512",
+        "mediaType": "image/png"
+      }
+    ]
+  }
+  ]
+}
