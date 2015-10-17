@@ -6,6 +6,7 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "schema": "http://schema.org/",
     "label": "http://www.w3.org/2000/01/rdf-schema#label",
+    "Catalog": "dcat:Catalog",
     "datasets": "dcat:dataset",
     "Dataset": "dcat:Dataset",
     "Location": "dct:Location",
