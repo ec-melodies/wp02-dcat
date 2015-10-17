@@ -1,6 +1,6 @@
 {
   "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
-  "@type": "dcat:Catalog",
+  "@type": "Catalog",
   "title": "WP6 Datasets",
   "datasets": [
   {
