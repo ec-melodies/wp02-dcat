@@ -38,7 +38,7 @@
   "title": "WP2 Pseudo Datasets",
   "datasets": [
   {
-    "@id": "http://melodiesproject.eu/datasets/collections/temperature/1",
+    "@id": "http://melodiesproject.eu/datasets/wp2/test",
     "@type": "Dataset",
     "title": "Test Dataset for testing distributions",
     "description": "This dataset includes distributions of various formats and APIs to demo CKAN's preview capabilities",
