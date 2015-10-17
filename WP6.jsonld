@@ -30,6 +30,7 @@
     "accessURL": { "@id": "dcat:accessURL", "@type": "@id" },
     "downloadURL": { "@id": "dcat:downloadURL", "@type": "@id" },
     "mediaType": "dcat:mediaType",
+    "format": "dct:format",
     "isPartOf": { "@id": "dct:isPartOf", "@type": "@id"},
     "parts": { "@id": "dct:hasPart", "@type": "@id" }
   },
