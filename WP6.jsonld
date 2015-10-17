@@ -37,7 +37,7 @@
   "title": "WP6 Datasets",
   "datasets": [
   {
-    "@id": "http://melodiesproject.eu/datasets/collections/temperature/1",
+    "@id": "http://melodiesproject.eu/datasets/wp6/collections/temperature",
     "@type": "Dataset",
     "title": "Monthly mean temperature maps",
     "description": "Monthly mean maps - temperature produced using Copernicus med mfc toolbox",
@@ -64,10 +64,10 @@
       }
     ],
     "parts": [
-      "http://melodiesproject.eu/datasets/temperature_1"
+      "http://melodiesproject.eu/datasets/wp6/temperature/2012/12"
     ]
   }, {
-    "@id": "http://melodiesproject.eu/datasets/temperature_1",
+    "@id": "http://melodiesproject.eu/datasets/wp6/temperature/2012/12",
     "@type": "Dataset",
     "title": "Monthly mean temperature map for December 2012",
     "description": "Monthly mean map for December 2012 - temperature produced using Copernicus med mfc toolbox",
@@ -85,7 +85,7 @@
        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
       "label": "Sea Water Temperature"
     }],
-    "isPartOf": "http://melodiesproject.eu/datasets/collections/temperature/1",  
+    "isPartOf": "http://melodiesproject.eu/datasets/wp6/collections/temperature",  
     "publisher": {
       "@type": "Organization",
       "name": "INGV & ACS"
