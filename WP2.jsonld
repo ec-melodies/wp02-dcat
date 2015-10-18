@@ -34,6 +34,11 @@
         "title": "UK Admin 2 Boundaries as GeoJSON",
         "downloadURL": "https://raw.githubusercontent.com/chrisfinch/over9k/master/public/experiments/march-2013/GBR_adm2.json",
         "format": "geojson"
+      }, {     
+        "@type": "Distribution",
+        "title": "WFS endpoint for US gov units",
+        "accessURL": "http://services.nationalmap.gov/arcgis/rest/services/WFS/govunits/MapServer",
+        "format": "wfs"
       }
     ]
   }
