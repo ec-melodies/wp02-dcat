@@ -21,8 +21,13 @@
     "distributions": [
       {     
         "@type": "Distribution",
-        "title": "WMS endpoint",
+        "title": "WMS endpoint USGS Topo",
         "accessURL": "http://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer",
+        "format": "wms"
+      }, {     
+        "@type": "Distribution",
+        "title": "WMS endpoint Hydrography (NHD)",
+        "accessURL": "http://services.nationalmap.gov/arcgis/services/nhd/MapServer/WMSServer",
         "format": "wms"
       }, {     
         "@type": "Distribution",
