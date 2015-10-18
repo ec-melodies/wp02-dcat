@@ -1,4 +1,4 @@
-# DCAT feeds for MELODIES's CKAN Demo
+# DCAT feeds for MELODIES' CKAN Demo
 
 A collection of GeoDCAT-AP catalogs written in JSON-LD which are suitable as feeds for CKAN.
 
