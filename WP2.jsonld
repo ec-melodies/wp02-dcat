@@ -22,7 +22,7 @@
       {     
         "@type": "Distribution",
         "title": "WMS endpoint",
-        "accessURL": "http://oos.soest.hawaii.edu/thredds/wms/srtm30plus_v11_land?service=WMS&version=1.3.0&request=GetCapabilities",
+        "accessURL": "http://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?request=GetCapabilities&service=WMS",
         "format": "wms"
       }, {     
         "@type": "Distribution",
