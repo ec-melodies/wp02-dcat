@@ -22,7 +22,7 @@
       {     
         "@type": "Distribution",
         "title": "WMS endpoint",
-        "accessURL": "http://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+        "accessURL": "http://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer",
         "format": "wms"
       }, {     
         "@type": "Distribution",
