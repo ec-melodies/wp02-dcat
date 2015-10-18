@@ -29,7 +29,12 @@
         "title": "Overview image from WMS",
         "downloadURL": "http://oos.soest.hawaii.edu/thredds/wms/srtm30plus_v11_land?LAYERS=elev&ELEVATION=0&TIME=2015-10-16T23%3A33%3A25Z&TRANSPARENT=false&STYLES=boxfill%2Frainbow&CRS=EPSG%3A4326&COLORSCALERANGE=0%2C6000&NUMCOLORBANDS=253&LOGSCALE=false&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&EXCEPTIONS=application%2Fvnd.ogc.se_inimage&FORMAT=image%2Fpng&SRS=EPSG%3A4326&BBOX=-180,-90,180,90&WIDTH=1024&HEIGHT=512",
         "mediaType": "image/png"
-      }
+      }, {     
+        "@type": "Distribution",
+        "title": "UK Admin 2 Boundaries as GeoJSON",
+        "downloadURL": "https://raw.githubusercontent.com/chrisfinch/over9k/master/public/experiments/march-2013/GBR_adm2.json",
+        "mediaType": "application/vnd.geo+json"
+      },
     ]
   }
   ]
