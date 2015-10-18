@@ -37,7 +37,7 @@
       }, {     
         "@type": "Distribution",
         "title": "WFS endpoint for US gov units",
-        "accessURL": "http://services.nationalmap.gov/arcgis/rest/services/WFS/govunits/MapServer",
+        "accessURL": "http://services.nationalmap.gov/arcgis/services/WFS/govunits/MapServer/WFSServer",
         "format": "wfs"
       }
     ]
