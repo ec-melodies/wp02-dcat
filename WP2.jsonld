@@ -34,7 +34,7 @@
         "title": "UK Admin 2 Boundaries as GeoJSON",
         "downloadURL": "https://raw.githubusercontent.com/chrisfinch/over9k/master/public/experiments/march-2013/GBR_adm2.json",
         "mediaType": "application/vnd.geo+json"
-      },
+      }
     ]
   }
   ]
