@@ -40,11 +40,11 @@
     "description": "Monthly mean map for December 2012 - temperature produced using Copernicus med mfc toolbox",
     "issued": "2015-10-13",
     "spatial": {
-      "@type": "dct:Location",
+      "@type": "Location",
       "geometry": "POLYGON((-6.03125 30.15625,36.28125 30.15625,36.28125 45.96875,-6.03125 45.96875,-6.03125 30.15625))"
     },
     "temporal": {
-      "@type": "dct:PeriodOfTime",
+      "@type": "PeriodOfTime",
       "startDate": "2012-11-30",
       "endDate": "2012-12-31"
     },
