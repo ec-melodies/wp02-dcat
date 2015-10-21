@@ -26,7 +26,7 @@
       {     
         "@type": "Distribution",
         "title": "Web Map Service endpoint",
-        "accessURL": "http://melodies-wp6.terradue.com/ncWMS-1.2/wms?item=layerDetails&layerName=mediterrenean_monthly_temperature/votemper&request=GetMetadata",
+        "accessURL": "http://melodies-wp6.terradue.com/ncWMS-1.2/wms",
         "format": "wms"
       }
     ],
