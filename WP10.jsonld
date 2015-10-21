@@ -54,7 +54,7 @@
     "parts" : [
       "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/sites/PQR/hl_timeseries"
     ],
-    "isPartOf": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/",
+    "isPartOf": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/"
   },
   {
     "@id": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/sites/PQR/hl_timeseries",
