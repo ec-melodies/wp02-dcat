@@ -81,7 +81,7 @@
         "@type": "Distribution",
         "title": "Timeseries in WaterML 1.1 format",
         "accessURL": "http://h2-melodies.cloudapp.net/ODM/GetValues?location=H2:EA001&variable=H2:q_mitja_d&startdate=1912-01-01&enddate=1998-09-30",
-        "format": "text/xml"
+        "mediaType": "text/xml"
       }
     ]
   }
