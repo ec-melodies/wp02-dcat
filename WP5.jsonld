@@ -13,7 +13,7 @@
     "publisher": {
       "@type": "Organization",
       "name": "Vista GmbH",
-      "@id": "www.vista-geo.de"
+      "@id": "http://www.vista-geo.de"
     },
     "spatial": {
       "@type": "Location",
