@@ -1,0 +1,39 @@
+{
+  "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
+  "@type": "Catalog",
+  "title": "WP5 Datasets",
+  "datasets": [
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp5/Result",
+    "@type": "Dataset",
+    "title": "Melodies Economic Evaluation",
+    "TODO": "globalen Titel und Beschreibugn ausdenkem, eintrag für Google, Description darf sehr lang sein",
+    "description": "Yield Potential",
+    "issued": "2015-10-13",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vista GmbH",
+      "@id": "www.vista-geo.de"
+    },
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "TODO": "link checken, nach keyword yield potential",
+      "label": "Yield Potential"
+    }],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "Web Map Service endpoint",
+        "accessURL": "http://services.nationalmap.gov/arcgis/services/nhd/MapServer/WMSServer",
+        "format": "wms"
+      }
+    ]
+    
+  }
+  
+  ]
+}
