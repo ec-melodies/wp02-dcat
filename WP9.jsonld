@@ -1,0 +1,35 @@
+{
+  "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
+  "@type": "Catalog",
+  "title": "WP9 Datasets",
+  "datasets": [
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp9/surfacecurrents",
+    "@type": "Dataset",
+    "title": "Surface current timeseries along ship tracks",
+    "description": "Assessment of surface currents from ship measurements. Useful for ocean modellers. Available in coastal regions from Mediterranean to English Channel.",
+    "issued": "2015-10-21",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "2014-10-01",
+      "endDate": "2015-10-15"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/this/doesnt/exist/sea_water_velocity",
+      "label": "Sea Water Current"
+    }],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "Surface currents as NetCDF files (not live yet!)",
+        "accessURL": "http://melodiesproject.eu/datasets/wp9/surfacecurrents.nc",
+        "format": "application/x-netcdf"
+      }
+    ]
+  }
+  ]
+}
