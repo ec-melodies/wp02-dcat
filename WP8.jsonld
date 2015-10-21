@@ -1,0 +1,36 @@
+{
+  "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
+  "@type": "Catalog",
+  "title": "WP8 Pseudo Datasets",
+  "datasets": [
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp8/test",
+    "@type": "Dataset",
+    "title": "Test Dataset for testing distributions",
+    "description": "European floods for DE",
+    "issued": "2015-10-21",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((55 15,  55 6, 47 6, 47 15, 55 15))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "1970-01-01",
+      "endDate": "2015-12-31"
+    },
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "GeoJSON file for flood in Wittenberge",
+        "accessURL": "http://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer/Wittenberge.geojson",
+        "format": "geoJSON"
+      }, {     
+        "@type": "Distribution",
+        "title": "GeoJSON file for flood in Frankfurt",
+        "accessURL": "http://services.nationalmap.gov/arcgis/services/nhd/MapServer/WMSServer/Frankfurt.geojson",
+        "format": "geoJSON"
+      }
+    ]
+  }
+  ]
+}
