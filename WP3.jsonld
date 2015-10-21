@@ -1,0 +1,63 @@
+{
+  "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
+  "@type": "Catalog",
+  "title": "WP3 Datasets",
+  "datasets": [
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp3/soilmoisture",
+    "@type": "Dataset",
+    "title": "UK Soil Moisture Data",
+    "description": "In situ soil moisture measurements made by neutron probes.",
+    "issued": "2015-10-21",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((1.8 60.9, 1.8 49.2, -13.4 49.2, -13.4 60.9, 1.8 60.9))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "1970-01-01",
+      "endDate": "2008-01-01"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0547/",
+      "label": "Mass Fraction of Unfrozen Water in Soil"
+    }],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "SPARQL endpoint for soil moisture data",
+        "accessURL": "http://melodiesproject.eu/datasets/wp3/soilmoisture/sparql",
+        "format": "sparql"
+      }
+    ]
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp3/landcover",
+    "@type": "Dataset",
+    "title": "UK Land Cover",
+    "description": "Land cover timeseries over UK derived from MODIS data.",
+    "issued": "2015-10-21",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((1.8 60.9, 1.8 49.2, -13.4 49.2, -13.4 60.9, 1.8 60.9))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "2003-01-01",
+      "endDate": "2014-01-01"
+    },
+    "observedProperties": [{
+      "@id": "http://www.melodiesproject.eu/def/landcover",
+      "label": "Land Cover"
+    }],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "NetCDF files",
+        "accessURL": "http://melodiesproject.eu/datasets/wp3/landcover/all.nc",
+        "format": "application/x-netcdf"
+      }
+    ]
+  }
+  ]
+}
