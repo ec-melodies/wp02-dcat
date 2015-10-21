@@ -4,7 +4,7 @@
   "title": "WP4 Datasets",
   "datasets": [
   {
-    "@id": "http://melodiesproject.eu/datasets/wp4/surfacecurrents",
+    "@id": "http://melodiesproject.eu/datasets/wp4/developableareas",
     "@type": "Dataset",
     "title": "Prague Developable areas",
     "description": "Potential developmetn areas in Prague.",
