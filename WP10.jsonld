@@ -1,8 +1,61 @@
 {
   "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
   "@type": "Catalog",
-  "title": "WP10 Datasets",
+  "title": "WP10 Datasets - hydrological data for certain aquifer",
   "datasets": [
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/",
+    "@type": "Dataset",
+    "title": "All data for the XYZ aquifer",
+    "description": "Timeseries of all sites and variables for the XYZ aquifer",
+    "issued": "2015-10-21",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POINT((1.695826 41.91894))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "1900-01-01",
+      "endDate": "1999-12-31"
+    },
+    "observedProperties": [{
+      "@id": "http://h2-melodies.cloudapp.net/delta/v1/id/variable_q_mitja_d",
+      "label": "Head level"
+    },{
+      "@id": "http://h2-melodies.cloudapp.net/delta/v1/id/variable_chl_TODO",
+      "label": "Chloride concentration"
+    }],
+    "parts" : [
+      "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/sites/PQR"
+    ]
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/sites/PQR/",
+    "@type": "Dataset",
+    "title": "Timeseries of all variables for site PQR in the XYZ aquifer",
+    "description": "Timeseries of all variables for site PQR in the XYZ aquifer, measured by in situ sensors",
+    "issued": "2015-10-21",
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POINT((1.695826 41.91894))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "1912-01-01",
+      "endDate": "1998-09-30"
+    },
+    "observedProperties": [{
+      "@id": "http://h2-melodies.cloudapp.net/delta/v1/id/variable_q_mitja_d",
+      "label": "Head level"
+    },{
+      "@id": "http://h2-melodies.cloudapp.net/delta/v1/id/variable_chl_TODO",
+      "label": "Chloride concentration"
+    }],
+    "parts" : [
+      "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/sites/PQR/hl_timeseries"
+    ],
+    "isPartOf": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/",
+  },
   {
     "@id": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/sites/PQR/hl_timeseries",
     "@type": "Dataset",
@@ -22,6 +75,7 @@
       "@id": "http://h2-melodies.cloudapp.net/delta/v1/id/variable_q_mitja_d",
       "label": "Head level"
     }],
+    "isPartOf": "http://melodiesproject.eu/datasets/wp10/aquifers/XYZ/sites/PQR/",
     "distributions": [
       {     
         "@type": "Distribution",
