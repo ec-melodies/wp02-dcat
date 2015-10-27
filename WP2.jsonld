@@ -26,8 +26,8 @@
         "format": "wms"
       }, {     
         "@type": "Distribution",
-        "title": "WMS endpoint Hydrography (NHD)",
-        "accessURL": "http://services.nationalmap.gov/arcgis/services/nhd/MapServer/WMSServer",
+        "title": "WMS endpoint IGEMS Hazards",
+        "accessURL": "http://igems.doi.gov/arcgis/services/igems_haz/MapServer/WMSServer",
         "format": "wms"
       }, {     
         "@type": "Distribution",
