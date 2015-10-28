@@ -54,8 +54,17 @@
     }],
     "isPartOf": "http://melodiesproject.eu/datasets/wp6/collections/temperature",  
     "publisher": {
-      "@type": "Organization",
-      "name": "INGV & ACS"
+      "@type": "Group",
+      "name": "INGV & ACS",
+      "foaf:member": [{
+        "@type": "Organization",
+        "@id": "http://www.ingv.it",
+        "name": "INGV"
+      }, {
+        "@type": "Organization",
+        "@id": "http://acsys.it",
+        "name": "ACS"
+      }]
     },
     "theme": {
       "@id": "http://inspire.ec.europa.eu/theme/of",
