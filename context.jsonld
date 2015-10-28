@@ -21,6 +21,7 @@
     "theme": {"@id": "dcat:theme", "@type": "@id" },
     "issued": { "@id": "dct:issued", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" },
     "modified": { "@id": "dct:modified", "@type": "http://www.w3.org/2001/XMLSchema#dateTime" },
+    "landingPage": {"@id": "dcat:landingPage", "@type": "@id" },
     "spatial": "dct:spatial",
     "temporal": "dct:temporal",
     "ssn": "http://purl.oclc.org/NET/ssnx/ssn",
