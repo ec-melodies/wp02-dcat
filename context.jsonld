@@ -25,6 +25,7 @@
     "homepage": {"@id": "foaf:homepage", "@type": "@id" },
     "spatial": "dct:spatial",
     "temporal": "dct:temporal",
+    "keywords": "dcat:keyword",
     "ssn": "http://purl.oclc.org/NET/ssnx/ssn",
     "observedProperties": { "@id": "ssn:observedProperty", "@type": "@id" },
     "publisher": "dct:publisher",
