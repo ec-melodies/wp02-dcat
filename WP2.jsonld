@@ -1,12 +1,21 @@
 {
-  "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
+  "@context": [
+    "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
+    {
+      "@language": "en",
+      "title": { "@id": "dct:title", "@container": "@language" }
+    }
+  ],
   "@type": "Catalog",
   "title": "WP2 Pseudo Datasets",
   "datasets": [
   {
     "@id": "http://melodiesproject.eu/datasets/wp2/test",
     "@type": "Dataset",
-    "title": "Test Dataset for testing distributions",
+    "title": {
+      "en": "Test Dataset for testing distributions",
+      "de": "Test Datensatz zum Testen von Distributionen"
+    },
     "description": "This dataset includes distributions of various formats and APIs to demo CKAN's preview capabilities",
     "issued": "2015-10-13",
     "spatial": {
