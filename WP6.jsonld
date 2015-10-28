@@ -58,11 +58,11 @@
       "name": "INGV & ACS",
       "foaf:member": [{
         "@type": "Organization",
-        "@id": "http://www.ingv.it",
+        "homepage": "http://www.ingv.it",
         "name": "INGV"
       }, {
         "@type": "Organization",
-        "@id": "http://acsys.it",
+        "homepage": "http://acsys.it",
         "name": "ACS"
       }]
     },
