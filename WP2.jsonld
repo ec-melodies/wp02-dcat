@@ -13,6 +13,7 @@
   {
     "@id": "http://melodiesproject.eu/datasets/wp2/test",
     "@type": "Dataset",
+    "landingPage": "http://melodiesproject.eu/datasets/wp2/test",
     "title": {
       "en": "Test Dataset for testing distributions",
       "de": "Test Datensatz zum Testen von Distributionen"
