@@ -27,6 +27,7 @@
     "observedProperties": { "@id": "ssn:observedProperty", "@type": "@id" },
     "publisher": "dct:publisher",
     "Organization": "foaf:Organization",
+    "Group": "foaf:Group",
     "name": "foaf:name",
     "Distribution": "dcat:Distribution",
     "distributions": "dcat:distribution",
