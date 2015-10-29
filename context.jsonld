@@ -25,20 +25,20 @@
     "homepage": {"@id": "foaf:homepage", "@type": "@id" },
     "spatial": "dct:spatial",
     "temporal": "dct:temporal",
-    "keywords": "dcat:keyword",
+    "keywords": {"@id": "dcat:keyword", "@container": "@set"},
     "ssn": "http://purl.oclc.org/NET/ssnx/ssn",
-    "observedProperties": { "@id": "ssn:observedProperty", "@type": "@id" },
+    "observedProperties": { "@id": "ssn:observedProperty", "@type": "@id", "@container": "@set" },
     "publisher": "dct:publisher",
     "Organization": "foaf:Organization",
     "Group": "foaf:Group",
     "name": "foaf:name",
     "Distribution": "dcat:Distribution",
-    "distributions": "dcat:distribution",
+    "distributions": {"@id": "dcat:distribution", "@container": "@set"},
     "accessURL": { "@id": "dcat:accessURL", "@type": "@id" },
     "downloadURL": { "@id": "dcat:downloadURL", "@type": "@id" },
     "mediaType": "dcat:mediaType",
     "format": "dct:format",
     "isPartOf": { "@id": "dct:isPartOf", "@type": "@id"},
-    "parts": { "@id": "dct:hasPart", "@type": "@id" }
+    "parts": { "@id": "dct:hasPart", "@type": "@id", "@container": "@set" }
   }
 }
