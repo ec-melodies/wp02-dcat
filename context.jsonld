@@ -26,7 +26,7 @@
     "spatial": "dct:spatial",
     "temporal": "dct:temporal",
     "keywords": {"@id": "dcat:keyword", "@container": "@set"},
-    "ssn": "http://purl.oclc.org/NET/ssnx/ssn",
+    "ssn": "http://purl.oclc.org/NET/ssnx/ssn#",
     "observedProperties": { "@id": "ssn:observedProperty", "@type": "@id", "@container": "@set" },
     "publisher": "dct:publisher",
     "Organization": "foaf:Organization",
