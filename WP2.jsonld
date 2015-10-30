@@ -57,6 +57,11 @@
         "title": "WFS endpoint for US gov units",
         "accessURL": "http://services.nationalmap.gov/arcgis/services/WFS/govunits/MapServer/WFSServer",
         "format": "wfs"
+      }, {     
+        "@type": "Distribution",
+        "title": "Grid as CoverageJSON file",
+        "downloadURL": "http://reading-escience-centre.github.io/leaflet-coverage/coverages/grid.covjson",
+        "mediaType": "application/prs.coverage+json"
       }
     ]
   }
