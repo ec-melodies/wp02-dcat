@@ -1,12 +1,5 @@
 {
-  "@context": [
-    "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
-    {
-      "@language": "en",
-      "title": { "@id": "dct:title", "@container": "@language" },
-      "description": { "@id": "dct:description", "@container": "@language" }
-    }
-  ],
+  "@context": "https://rawgit.com/ec-melodies/wp02-dcat/master/context.jsonld",
   "@type": "Catalog",
   "title": "WP2 Pseudo Datasets",
   "datasets": [
