@@ -32,13 +32,13 @@
     "publisher": "dct:publisher",
     "Organization": "foaf:Organization",
     "Group": "foaf:Group",
-    "name": "foaf:name",
+    "name": {"@id": "foaf:name", "@language": null},
     "Distribution": "dcat:Distribution",
     "distributions": {"@id": "dcat:distribution", "@container": "@set"},
     "accessURL": { "@id": "dcat:accessURL", "@type": "@id" },
     "downloadURL": { "@id": "dcat:downloadURL", "@type": "@id" },
-    "mediaType": "dcat:mediaType",
-    "format": "dct:format",
+    "mediaType": {"@id": "dcat:mediaType", "@language": null},
+    "format": {"@id": "dct:format", "@language": null},
     "isPartOf": { "@id": "dct:isPartOf", "@type": "@id"},
     "parts": { "@id": "dct:hasPart", "@type": "@id", "@container": "@set" }
   }
