@@ -60,6 +60,21 @@
         "format": "application/x-netcdf"
       }
     ]
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp3/landcover-modis-mapping",
+    "@type": "Dataset",
+    "title": "Mapping from MELODIES UK Land Cover to MODIS",
+    "issued": "2015-12-11",
+    "keywords": ["land cover", "MODIS", "UK"],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "Mapping in JSON-LD format",
+        "downloadURL": "https://raw.githubusercontent.com/ec-melodies/wp03-modis-landcover-mapping/master/mapping.jsonld",
+        "mediaType": "application/ld+json;profile=\"http://purl.org/voc/cpm_mapping\""
+      }
+    ]
   }
   ]
 }
