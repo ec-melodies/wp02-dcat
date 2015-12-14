@@ -49,15 +49,15 @@
       "endDate": "2014-01-01"
     },
     "observedProperties": [{
-      "@id": "http://www.melodiesproject.eu/def/landcover",
+      "@id": "http://melodiesproject.eu/datasets/WP3/land-cover",
       "label": "Land Cover"
     }],
     "distributions": [
       {     
         "@type": "Distribution",
-        "title": "NetCDF files",
-        "accessURL": "http://melodiesproject.eu/datasets/wp3/landcover/all.nc",
-        "format": "application/x-netcdf"
+        "title": "Coverage REST API",
+        "accessURL": "http://lovejoy.nerc-essc.ac.uk:8080/edal-json/datasets/MLC.nc/coverages/land_cover",
+        "mediaType": "application/prs.coverage+json"
       }
     ]
   },
