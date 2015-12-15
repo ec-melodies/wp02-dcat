@@ -6,7 +6,7 @@
   {
     "@id": "http://melodiesproject.eu/datasets/wp8/test",
     "@type": "Dataset",
-    "title": "Test Dataset for testing distributions",
+    "title": "European floods for DE",
     "description": "European floods for DE",
     "issued": "2015-10-21",
     "spatial": {
