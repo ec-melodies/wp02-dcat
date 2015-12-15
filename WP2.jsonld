@@ -8,11 +8,10 @@
     "@type": "Dataset",
     "landingPage": "http://melodiesproject.eu/datasets/wp2/test",
     "title": {
-      "en": "Test Dataset for testing distributions",
-      "de": "Test Datensatz zum Testen von Distributionen"
+      "en": "Test Dataset for testing distributions"
     },
     "description": {
-      "de": "This dataset includes distributions of various formats and APIs to demo CKAN's preview capabilities"
+      "en": "This dataset includes distributions of various formats and APIs to demo CKAN's preview capabilities"
     },
     "issued": "2015-10-13",
     "spatial": {
