@@ -71,7 +71,7 @@
       {     
         "@type": "Distribution",
         "title": "Mapping in JSON-LD format",
-        "downloadURL": "https://raw.githubusercontent.com/ec-melodies/wp03-modis-landcover-mapping/master/mapping.jsonld",
+        "downloadURL": "https://raw.githubusercontent.com/ec-melodies/wp03-landcover-reclassifications/master/melodies_modis.jsonld",
         "mediaType": "application/ld+json;profile=\"http://purl.org/voc/cpm_catremap\""
       }
     ]
