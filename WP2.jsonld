@@ -56,11 +56,11 @@
         "mediaType": "application/prs.coverage+json"
       }
     ]
-  },   {
+  }, {
     "@id": "http://melodiesproject.eu/datasets/wp2/uk_admin2_boundaries/2013/03",
     "@type": "Dataset",
     "title": "UK Administrative Boundaries Level 2 (OpenStreetMaps) - March 2013",
-    "keywords": [UK"],
+    "keywords": ["UK"],
     "temporal": {
       "@type": "PeriodOfTime",
       "startDate": "2013-03-01",
