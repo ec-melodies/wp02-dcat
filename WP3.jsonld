@@ -77,6 +77,36 @@
     ]
   },
   {
+    "@id": "http://melodiesproject.eu/datasets/wp3/landcover-unlccs-mapping",
+    "@type": "Dataset",
+    "title": "Mapping from MELODIES UK Land Cover to UN LCCS",
+    "issued": "2015-12-11",
+    "keywords": ["land cover", "UN LCCS", "UK"],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "Mapping in JSON-LD format",
+        "downloadURL": "https://raw.githubusercontent.com/ec-melodies/wp03-landcover-reclassifications/master/melodies_unlccs.jsonld",
+        "mediaType": "application/ld+json;profile=\"http://purl.org/voc/cpm_catremap\""
+      }
+    ]
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp3/landcover-modis-unlccs-mapping",
+    "@type": "Dataset",
+    "title": "Mapping from MODIS UK Land Cover to UN LCCS",
+    "issued": "2015-12-11",
+    "keywords": ["land cover", "modis", "UN LCCS", "UK"],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "Mapping in JSON-LD format",
+        "downloadURL": "https://raw.githubusercontent.com/ec-melodies/wp03-landcover-reclassifications/master/modis_unlccs.jsonld",
+        "mediaType": "application/ld+json;profile=\"http://purl.org/voc/cpm_catremap\""
+      }
+    ]
+  },
+  {
     "@id": "http://melodiesproject.eu/datasets/wp3/modis_landcover",
     "@type": "Dataset",
     "title": "UK MODIS Land Cover",
