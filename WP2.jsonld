@@ -78,6 +78,60 @@
         "format": "geojson"
       }
     ]
+  }, {
+    "@id": "http://melodiesproject.eu/datasets/wp2/foam/salinity",
+    "@type": "Dataset",
+    "title": "FOAM Sea water salinity",
+    "keywords": ["salinity", "sea water"],
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "2011-01-01",
+      "endDate": "2011-01-01"
+    },
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "CovJSON FOAM Salinity",
+        "downloadURL": "http://lovejoy.nerc-essc.ac.uk:8080/edal-json/datasets/FOAM_one.ncml/coverages/SALTY.covjson",
+        "mediaType": "application/prs.coverage+json"
+      }
+    ]
+  }, {
+    "@id": "http://melodiesproject.eu/datasets/wp2/foam/temperature",
+    "@type": "Dataset",
+    "title": "FOAM Sea Water Potential Temperature",
+    "keywords": ["potential temperature", "sea water"],
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "2011-01-01",
+      "endDate": "2011-01-01"
+    },
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "CovJSON FOAM Potential Temperature",
+        "downloadURL": "http://lovejoy.nerc-essc.ac.uk:8080/edal-json/datasets/FOAM_one.ncml/coverages/TMP.covjson",
+        "mediaType": "application/prs.coverage+json"
+      }
+    ]
+  }, {
+    "@id": "http://melodiesproject.eu/datasets/wp2/en4/2011/01",
+    "@type": "Dataset",
+    "title": "EN4 January 2011",
+    "keywords": ["potential temperature", "salinity", "sea water"],
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "2011-01-01",
+      "endDate": "2011-01-31"
+    },
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "CovJSON EN4 2011-01",
+        "downloadURL": "http://lovejoy.nerc-essc.ac.uk:8080/edal-json/datasets/en4_2011-01.nc/coverages.covjson",
+        "mediaType": "application/prs.coverage+json"
+      }
+    ]
   }
   ]
 }
