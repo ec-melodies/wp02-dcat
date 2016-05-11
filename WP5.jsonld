@@ -29,7 +29,7 @@
       {     
         "@type": "Distribution",
         "title": "Coverage JSON",
-        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp05-demodata/master/TFB2_NWS_wgs84.covjson",
+        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp5-demodata/master/TFB2_NWS_wgs84.covjson",
 	"mediaType": "application/prs.coverage+json"
       }
     ]
@@ -59,7 +59,7 @@
       {     
         "@type": "Feature collection",
         "title": "Geographic JSON",
-        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp05-demodata/master/fieldbound_HO2015.geojson",
+        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp5-demodata/master/fieldbound_HO2015.geojson",
 	"format": "GeoJSON"
       }
     ]
