@@ -98,6 +98,39 @@
     ]
   },
   {
+    "@id": "http://melodiesproject.eu/datasets/wp5/biotopes",
+	"@type": "Dataset",
+    "title": "Natural areas",
+	"description": {
+		"en": "Natural areas (biotopes) in Bavaria mapped between 1984 and 2010.",
+		"de": "Natürliche Flächen (Biotope) in Bayern kartiert zwischen 1984 und 2010."
+    },
+	"issued": "1900-01-01",
+	"keywords": ["natural area", "biotope", "Bavaria"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bavarian Environment Agency (BayLfU)",
+      "homepage": "http://www.lfu.bayern.de/natur/biotopkartierung_flachland/index.htm"
+    },
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "TODO": "link check!",
+      "label": "boundaries"
+    }],
+	"distributions": [
+      {     
+        "@type": "Feature collection",
+        "title": "Web Map Service endpoint",
+        "accessURL": "http://www.lfu.bayern.de/gdi/wms/natur/biotopkartierung",
+		"mediaType": "wms"
+      }
+    ]
+  },
+  {
     "@id": "http://melodiesproject.eu/datasets/wp5/result_R01",
 	"@type": "Dataset",
     "title": "Greening areas along forests and waterways",
