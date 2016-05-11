@@ -2,14 +2,15 @@
   "@context": "https://raw.githubusercontent.com/ec-melodies/wp02-dcat/master/context.jsonld",
   "@type": "Catalog",
   "title": "WP5 Datasets",
+  "keywords": ["farming", "satellite", "CAP", "Earth Observation", "Greening"],
   "datasets": [
   {
-    "@id": "http://melodiesproject.eu/datasets/wp5/Result",
+    "@id": "http://melodiesproject.eu/datasets/wp5/base_map",
     "@type": "Dataset",
-    "title": "Melodies Economic Evaluation",
-    "TODO": "globalen Titel und Beschreibugn ausdenkem, eintrag für Google, Description darf sehr lang sein",
-    "description": "Yield Potential",
-    "issued": "2015-10-13",
+    "title": "TF Base Map",
+    "description": "The TF base map shows the persistent (multi-annual) patterns of relative fertility in a field as observed from space with satellites.",
+    "issued": "2016-04-30",
+	"keywords": ["farming", "satellite", "Earth Observation", "Base map"],
     "publisher": {
       "@type": "Organization",
       "name": "Vista GmbH",
@@ -17,7 +18,7 @@
     },
     "spatial": {
       "@type": "Location",
-      "geometry": "POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))"
+      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
     },
     "observedProperties": [{
       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
@@ -27,13 +28,140 @@
     "distributions": [
       {     
         "@type": "Distribution",
-        "title": "Web Map Service endpoint",
-        "accessURL": "http://services.nationalmap.gov/arcgis/services/nhd/MapServer/WMSServer",
-        "format": "wms"
+        "title": "Coverage JSON",
+        "accessURL": "https://github.com/ec-melodies/wp05-landcover/blob/master/TFB2_NWS_wgs84.covjson",
+		"mediaType": "application/prs.coverage+json"
       }
     ]
-    
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp5/fieldboundaries",
+    "@type": "Dataset",
+    "title": "Field boundaries",
+	"description": "Agricultural field boundaries as .",
+    "issued": "2015-04-09",
+	"keywords": ["farming", "agriculture", "field"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Landesamt für Digitalisierung, Breitband und Vermessung Bayern",
+      "homepage": "http://ldbv.bayern.de/produkte/kataster/flurkarte.html"
+    },
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "TODO": "link check!",
+      "label": "boundaries"
+    }],
+	"distributions": [
+      {     
+        "@type": "Feature collection",
+        "title": "Geographic JSON",
+        "accessURL": "https://github.com/ec-melodies/wp05-landcover/blob/master/fieldbound_HO2015.geojson",
+		"mediaType": "GeoJSON"
+      }
+    ]
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp5/conservationareas",
+	"@type": "Dataset",
+    "title": "Conservation areas",
+	"description": {
+		"en": "Conservation areas protected under the EU Habitats directive or German and Bavarian regulation.",
+		"de": "Naturschutzflächen nach EU-FFH Richtlinie bzw. deutscher und bayerischer Gesetzgebung."
+    },
+	"issued": "1900-01-01",
+	"keywords": ["conservation area", "FFH directive", "xxx"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bavarian Environment Agency (BayLfU)",
+      "homepage": "http://geoportal.bayern.de/geoportalbayern/suche/suche?7&f=true&q=Protected+sites"
+    },
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "TODO": "link check!",
+      "label": "boundaries"
+    }],
+	"distributions": [
+      {     
+        "@type": "Feature collection",
+        "title": "Web Map Service endpoint",
+        "accessURL": "http://www.lfu.bayern.de/gdi/wms/naturschutz/schutzgebiete",
+		"mediaType": "wms"
+      }
+    ]
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp5/result_R01",
+	"@type": "Dataset",
+    "title": "Greening areas along forests and waterways",
+	"descripion": {
+		"en": "Potential 'Greening' areas as defined in the EU 'Greening' directive (Riparian and forest buffer strips)",
+		"de": "Potentielle 'Greening'-Flächen nach EU-'Greening' Richtlinie (Wald- und Gewässerrandstreifen)."
+	},
+	"issued": "2016-04-30",
+	"keywords": ["farming", "greening", "CAP"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vista GmbH",
+      "homepage": "http://www.vista-geo.de"
+	},  
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "TODO": "link check!",
+      "label": "boundaries"
+    }],
+	"distributions": [
+      {     
+        "@type": "Feature collection",
+        "title": "Geographic JSON",
+        "accessURL": "https://github.com/ec-melodies/wp05-landcover/blob/master/R01_bufferstrips_HO2015.geojson",
+		"mediaType": "GeoJSON"
+      }
+    ]
+  },
+  {
+    "@id": "http://melodiesproject.eu/datasets/wp5/result_R02",
+	"@type": "Dataset",
+    "title": "Greening areas along conservation areas",
+	"descripion": {
+		"de": "Zusätzliche 'Greening'-Flächen (Pufferzonen) mit hohem ökologisches Potential die an Naturschutzflächen angrenzen.",
+		"en": "Additional 'Greening' areas with high ecological potential buffering conservation areas."
+	},
+	"issued": "2016-04-30",
+	"keywords": ["farming", "greening", "CAP"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Vista GmbH",
+      "homepage": "http://www.vista-geo.de"
+	},
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+    },
+    "observedProperties": [{
+      "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
+      "TODO": "link check!",
+      "label": "boundaries"
+    }],
+	"distributions": [
+      {     
+        "@type": "Feature collection",
+        "title": "Geographic JSON",
+        "accessURL": "https://github.com/ec-melodies/wp05-landcover/blob/master/R02_bufferstrips_HO2015.geojson",
+		"mediaType": "GeoJSON"
+      }
+    ]
   }
-  
-  ]
+ ]
 }
