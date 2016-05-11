@@ -29,8 +29,8 @@
       {     
         "@type": "Distribution",
         "title": "Coverage JSON",
-        "accessURL": "https://github.com/ec-melodies/wp05-demodata/blob/master/TFB2_NWS_wgs84.covjson",
-		"mediaType": "application/prs.coverage+json"
+        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp05-demodata/master/TFB2_NWS_wgs84.covjson",
+	"mediaType": "application/prs.coverage+json"
       }
     ]
   },
@@ -59,8 +59,8 @@
       {     
         "@type": "Feature collection",
         "title": "Geographic JSON",
-        "accessURL": "https://github.com/ec-melodies/wp05-demodata/blob/master/fieldbound_HO2015.geojson",
-		"mediaType": "GeoJSON"
+        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp05-demodata/master/fieldbound_HO2015.geojson",
+	"format": "GeoJSON"
       }
     ]
   },
@@ -93,7 +93,7 @@
         "@type": "Feature collection",
         "title": "Web Map Service endpoint",
         "accessURL": "http://www.lfu.bayern.de/gdi/wms/naturschutz/schutzgebiete",
-		"mediaType": "wms"
+	"format": "wms"
       }
     ]
   },
@@ -125,8 +125,8 @@
       {     
         "@type": "Feature collection",
         "title": "Geographic JSON",
-        "accessURL": "https://github.com/ec-melodies/wp05-demodata/blob/master/R01_bufferstrips_HO2015.geojson",
-		"mediaType": "GeoJSON"
+        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp5-demodata/master/R01_bufferstrips_HO2015.geojson",
+	"format": "GeoJSON"
       }
     ]
   },
@@ -158,8 +158,8 @@
       {     
         "@type": "Feature collection",
         "title": "Geographic JSON",
-        "accessURL": "https://github.com/ec-melodies/wp05-demodata/blob/master/R02_bufferstrips_HO2015.geojson",
-		"mediaType": "GeoJSON"
+        "accessURL": "https://raw.githubusercontent.com/ec-melodies/wp5-demodata/master/R02_bufferstrips_HO2015.geojson",
+	"format": "GeoJSON"
       }
     ]
   }
