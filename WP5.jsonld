@@ -126,7 +126,7 @@
         "@type": "Feature collection",
         "title": "Web Map Service endpoint",
         "accessURL": "http://www.lfu.bayern.de/gdi/wms/natur/biotopkartierung",
-		"mediaType": "wms"
+	"format": "wms"
       }
     ]
   },
