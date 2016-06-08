@@ -18,7 +18,7 @@
     },
     "spatial": {
       "@type": "Location",
-      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+      "geometry": "POLYGON((12.096 48.168, 12.096 48.271, 12.283 48.271, 12.283 48.168, 12.096 48.168))"
     },
     "observedProperties": [{
       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
@@ -48,7 +48,7 @@
     },
     "spatial": {
       "@type": "Location",
-      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+      "geometry": "POLYGON((12.096 48.168, 12.096 48.271, 12.283 48.271, 12.283 48.168, 12.096 48.168))"
     },
     "observedProperties": [{
       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
@@ -81,7 +81,7 @@
     },
     "spatial": {
       "@type": "Location",
-      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+      "geometry": "POLYGON((12.096 48.168, 12.096 48.271, 12.283 48.271, 12.283 48.168, 12.096 48.168))"
     },
     "observedProperties": [{
       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
@@ -114,7 +114,7 @@
     },
     "spatial": {
       "@type": "Location",
-      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+      "geometry": "POLYGON((12.096 48.168, 12.096 48.271, 12.283 48.271, 12.283 48.168, 12.096 48.168))"
     },
     "observedProperties": [{
       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
@@ -147,7 +147,7 @@
 	},  
     "spatial": {
       "@type": "Location",
-      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+      "geometry": "POLYGON((12.096 48.168, 12.096 48.271, 12.283 48.271, 12.283 48.168, 12.096 48.168))"
     },
     "observedProperties": [{
       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
@@ -180,7 +180,7 @@
 	},
     "spatial": {
       "@type": "Location",
-      "geometry": "POLYGON((48.168 12.096, 48.271 12.096, 48.271 12.283, 48.168 12.283, 48.168 12.096))"
+      "geometry": "POLYGON((12.096 48.168, 12.096 48.271, 12.283 48.271, 12.283 48.168, 12.096 48.168))"
     },
     "observedProperties": [{
       "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/",
