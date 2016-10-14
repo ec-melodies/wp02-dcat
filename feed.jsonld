@@ -1,5 +1,5 @@
 {
-  "@context": "https://raw.githubusercontent.com/ec-melodies/wp02-dcat/master/context.jsonld",
+  "@context": "https://ec-melodies.github.io/wp02-dcat/context.jsonld",
   "@type": "Catalog",
   "title": "MELODIES demo catalogue",
   "datasets": [
