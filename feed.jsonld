@@ -150,7 +150,7 @@
       {     
         "@type": "Distribution",
         "title": "CoverageJSON + REST API",
-        "accessURL": "http://lovejoy.nerc-essc.ac.uk:8080/edal-json/datasets/melodies_lc-latlon.nc/coverages/land_cover.covjson",
+        "accessURL": "https://ec-melodies.github.io/wp03-landcover-covjson/land_cover.covjson",
         "mediaType": "application/prs.coverage+json"
       }
     ]
