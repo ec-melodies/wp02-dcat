@@ -150,7 +150,7 @@
       {     
         "@type": "Distribution",
         "title": "CoverageJSON + REST API",
-        "accessURL": "https://ec-melodies.github.io/wp03-landcover-covjson/land_cover.covjson",
+        "accessURL": "https://ec-melodies.github.io/wp03-landcover-covjson/CRS84/land_cover.covjson",
         "mediaType": "application/prs.coverage+json"
       }
     ]
