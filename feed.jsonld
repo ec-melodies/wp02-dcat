@@ -129,7 +129,7 @@
  {
     "@id": "http://melodiesproject.eu/datasets/wp3/landcover",
     "@type": "Dataset",
-    "title": "UK MELODIES Land Cover",
+    "title": "UK MELODIES Land Cover (Latitude/Longitude)",
     "description": "Land cover timeseries over UK derived from MODIS data.",
     "issued": "2015-10-21",
     "keywords": ["land cover", "MODIS", "UK"],
@@ -140,7 +140,7 @@
     "temporal": {
       "@type": "PeriodOfTime",
       "startDate": "2003-01-01",
-      "endDate": "2014-01-01"
+      "endDate": "2015-01-01"
     },
     "observedProperties": [{
       "@id": "http://melodiesproject.eu/datasets/WP3/land-cover",
@@ -151,6 +151,34 @@
         "@type": "Distribution",
         "title": "CoverageJSON + REST API",
         "accessURL": "https://ec-melodies.github.io/wp03-landcover-covjson/CRS84/land_cover.covjson",
+        "mediaType": "application/prs.coverage+json"
+      }
+    ]
+  }, {
+    "@id": "http://melodiesproject.eu/datasets/wp3/landcover",
+    "@type": "Dataset",
+    "title": "UK MELODIES Land Cover (British National Grid)",
+    "description": "Land cover timeseries over UK derived from MODIS data.",
+    "issued": "2015-10-21",
+    "keywords": ["land cover", "MODIS", "UK"],
+    "spatial": {
+      "@type": "Location",
+      "geometry": "POLYGON((1.8 60.9, 1.8 49.2, -13.4 49.2, -13.4 60.9, 1.8 60.9))"
+    },
+    "temporal": {
+      "@type": "PeriodOfTime",
+      "startDate": "2003-01-01",
+      "endDate": "2015-01-01"
+    },
+    "observedProperties": [{
+      "@id": "http://melodiesproject.eu/datasets/WP3/land-cover",
+      "label": "MELODIES Land Cover"
+    }],
+    "distributions": [
+      {     
+        "@type": "Distribution",
+        "title": "CoverageJSON + REST API",
+        "accessURL": "https://ec-melodies.github.io/wp03-landcover-covjson/BNG/land_cover.covjson",
         "mediaType": "application/prs.coverage+json"
       }
     ]
