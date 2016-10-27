@@ -127,7 +127,7 @@
 
 
  {
-    "@id": "http://melodiesproject.eu/datasets/wp3/landcover",
+    "@id": "http://melodiesproject.eu/datasets/wp3/landcover/wgs84",
     "@type": "Dataset",
     "title": "UK MELODIES Land Cover (Latitude/Longitude)",
     "description": "Land cover timeseries over UK derived from MODIS data.",
@@ -155,7 +155,7 @@
       }
     ]
   }, {
-    "@id": "http://melodiesproject.eu/datasets/wp3/landcover",
+    "@id": "http://melodiesproject.eu/datasets/wp3/landcover/bng",
     "@type": "Dataset",
     "title": "UK MELODIES Land Cover (British National Grid)",
     "description": "Land cover timeseries over UK derived from MODIS data.",
